@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-wrap: break-word;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  text-decoration-skip-ink: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  display: inline-block;
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+
+
+
