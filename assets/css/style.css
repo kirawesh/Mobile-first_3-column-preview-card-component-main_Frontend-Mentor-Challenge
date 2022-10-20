@@ -131,11 +131,13 @@ body {
 }
 
 /** LAPTOP BREAKPOINT **/
-@media screen and (min-width: 62.5rem) {
+@media screen and (min-width: 1024px) {
 
   body {
     grid-template-columns: repeat(8, 1fr);
     padding: 0;
+    max-width: 1024px;
+    margin: 0 auto;
   }
 
   .container,
@@ -164,10 +166,12 @@ body {
 }
 
 /** DESKTOP BREAKPOINT **/
-@media screen and (min-width: 87.5rem) {
+@media screen and (min-width: 1440px) {
 
   body {
     grid-template-columns: repeat(12, 1fr);
+    max-width: 1440px;
+    margin: 0 auto;
   }
 
   .container,
